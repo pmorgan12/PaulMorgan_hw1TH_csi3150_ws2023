@@ -1,79 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Paul Morgan Portfolio Website</title>
-    <link rel="icon" href="assets/img/myAvatar.jpg" type="image/x-icon"/>
-</head>
-<body>
-     <header></header>
-     <center><h1>Paul Morgan Resume</h1></center>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paul Morgan - Resume</title>
+    <link rel="stylesheet" href="/css/resumestyle.css" />
+    <link rel="icon" href="/assets/img/myAvatar.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <!-- Logo to the Left -->
+        <div class="logo">
+          <img src="/assets/img/myAvatar.jpg" alt="logo" class="logo-img" />
+        </div>
+
+        <!-- Navbar in the Center -->
         <nav>
-        <h1>Directory</h1>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="html/my_resume.html">My Resume</a></li>
-          <li><a href="html/my_fun_facts.html">Fun Facts About Me</a></li>
-        </ul>  
-      </nav>
+          <ul class="nav-list">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/html/my_resume.html">My Resume</a></li>
+            <li><a href="/html/my_fun_facts.html">Fun Facts</a></li>
+          </ul>
+        </nav>
+
+        <!-- Call to Action to the Right -->
+        <div class="cta">
+          <a
+            href="https://github.com/pmorgan12/PaulMorgan_hw1TH_csi3150_ws2023"
+            class="cta-button"
+            >View My Work</a
+          >
+        </div>
     </header>
-    <section>
-        <!--contact section-->
-        <center><H2>Contact:</H2></center>
-        <ul>
+
+    <section class="resume-header">
+      <h1>Paul Morgan - Resume</h1>
+    </section>
+
+    <section class="contact-info">
+      <h2>Contact Information</h2>
+      <ul>
         <li>Email: pmorgan@oakland.edu</li>
-        <li>Cell: 123-456-7890</li>
-        <li>Address: 509 Meadowbrook Rd.</li>
-    </ul>
+        <li>Cell: 586-565-9787</li>
+        <li>Address: 16045 Dugan St.</li>
+      </ul>
     </section>
-    <section>
-        <!--objective section-->
-        <center><h2>Objective:</h2></center>
-       <center>IT major seeking internship in order to expand skills in the workplace and gain valuable experience.</center> 
-       <hr>
+
+    <section class="objective">
+      <h2>Objective</h2>
+      <p>
+        IT major seeking internship in order to expand skills in the workplace
+        and gain valuable experience.
+      </p>
     </section>
-    <section>
-        <!--professional experience-->
-        <center><h2>Professional Experience</h2></center>
-        <h3>April 2020 - April 2023 | Little Caesars Assistant Manager | Warren, MI </h3>
-        <section>Tasked Crew members with various things to ensure smooth workflow, Managed safe and alarm systems in morning and at night. </section>
-        <h3>April 2023 - Present | Laborer / Human Resources / IT assistant | Lamontagne Construction LLC | Saint Clair, MI </h3>
-        <section>Ensure work is done to satisfactory quality, also manage electronic side of business, making advertisements and typing quotes</section>
-        <hr>
+
+    <section class="experience">
+      <h2>Professional Experience</h2>
+      <div class="experience-item">
+        <h3>Little Caesars Assistant Manager | Warren, MI</h3>
+        <p>
+          <strong>April 2020 - April 2023:</strong> Tasked crew members with
+          various duties to ensure smooth workflow. Managed safe and alarm
+          systems during opening and closing.
+        </p>
+      </div>
+      <div class="experience-item">
+        <h3>
+          Laborer / Human Resources / IT Assistant | Lamontagne Construction LLC
+          | Saint Clair, MI
+        </h3>
+        <p>
+          <strong>April 2023 - Present:</strong> Ensure quality of work, manage
+          electronic aspects of the business including advertisements and typing
+          quotes.
+        </p>
+      </div>
     </section>
-    <section>
-        <!--educational experience-->
-        <center><h2>Educational Experience</h2>
-        <table>
-            <tbody>
-                <th>start-end</th>
-                <th>Degree</th>
-                <tr>
-                    <td>2021-Present</td>
-                    <td>Bachelor of Science in IT, Oakland University, Rochester, MI</td>
-                </tr>
-            </tbody>
-        </table>
-        </center>
-      </section>
-      <section>
-        <!--extracurriculars and hobbies-->
-        <center>
-            <h2>Extracurricular Interests and Hobbies</h2>
-            Ever since I could understand what technology was it has been my passion. Anything from electronics, to internet, and everything in between. 
-            I also really enjoy cars and working on them, and books about psychology
-        </center>
-        <hr>
-      </section>
-      <footer></footer>
-      <!--copyright and contact info-->
-        <ul>
-            <li>pmorgan@oakland.edu</li>
-            <li><a href="https://github.com/pmorgan12/PaulMorgan_hw1TH_csi3150_ws2023">My GitHub</a></li>
-        </ul>
-        Copyright @2024 Paul Morgan
+
+    <section class="education">
+      <h2>Educational Experience</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Start-End</th>
+            <th>Degree</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2021-Present</td>
+            <td>
+              Bachelor of Science in IT, Oakland University, Rochester, MI
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="hobbies">
+      <h2>Extracurricular Interests and Hobbies</h2>
+      <p>
+        I have always been passionate about technology, from electronics to the
+        internet. Additionally, I enjoy working on cars and reading books about
+        psychology.
+      </p>
+    </section>
+
+    <footer>
+      <ul>
+        <li>Email: pmorgan@oakland.edu</li>
+        <li>
+          <a href="https://github.com/pmorgan12/PaulMorgan_hw1TH_csi3150_ws2023"
+            >My GitHub</a
+          >
+        </li>
+      </ul>
+      <p>&copy; 2024 Paul Morgan</p>
     </footer>
-    
-</body>
+  </body>
 </html>

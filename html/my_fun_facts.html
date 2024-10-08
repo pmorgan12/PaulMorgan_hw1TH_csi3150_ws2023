@@ -3,73 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Paul Morgan Portfolio Website</title>
-    <link rel="icon" href="assets/img/myAvatar.jpg" type="image/x-icon" />
+    <title>Paul Morgan - Fun Facts</title>
+    <link rel="stylesheet" href="/css/funfactstyle.css" />
+    <link rel="icon" href="/assets/img/myAvatar.jpg" type="image/x-icon" />
   </head>
   <body>
     <header>
-      <center><h1>Fun Facts About Me</h1></center>
-      <nav>
-        <h1>Directory</h1>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="html/my_resume.html">My Resume</a></li>
-          <li><a href="html/my_fun_facts.html">Fun Facts About Me</a></li>
-        </ul>
-      </nav>
+      <div class="header-container">
+        <!-- Logo to the Left -->
+        <div class="logo">
+          <img src="/assets/img/myAvatar.jpg" alt="logo" class="logo-img" />
+        </div>
+
+        <!-- Navbar in the Center -->
+        <nav>
+          <ul class="nav-list">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/html/my_resume.html">My Resume</a></li>
+            <li><a href="/html/my_fun_facts.html">Fun Facts About Me</a></li>
+          </ul>
+        </nav>
+
+        <!-- Call to Action to the Right -->
+        <div class="cta">
+          <a
+            href="https://github.com/pmorgan12/PaulMorgan_hw1TH_csi3150_ws2023"
+            class="cta-button"
+            >View My Work</a
+          >
+        </div>
     </header>
-    <article>
-      <center>
-        <header>
-          <!--favorite book section-->
-          <h2>Favorite Book</h2>
-          <h3>Talking To Strangers by Malcolm Gladwell</h3>
-        </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Fun Facts About Me</h1>
+        <p>Get to know more about my favorite things!</p>
+      </div>
+    </section>
+
+    <section class="fun-facts">
+      <!-- Favorite Book Section -->
+      <div class="fact-item">
+        <h2>Favorite Book</h2>
+        <h3>Talking to Strangers by Malcolm Gladwell</h3>
         <img
           src="/assets/img/tts.jpg"
-          alt="image of book cover"
-          width="1050"
-          height="656"
+          alt="Talking to Strangers book cover"
+          class="fact-image"
         />
-        <br />
-        <a href="https://images.app.goo.gl/9rU9UemsRFzVFMB27">Link to buy</a>
         <p>
-          I like this book because it goes on an in-depth analysis of how people
-          function on their own and amongst each other.
+          I like this book because it provides an in-depth analysis of how
+          people interact with one another.
         </p>
-      </center>
-    </article>
-    <center>
-      <header>
-        <!--favorite song section-->
+        <a href="https://images.app.goo.gl/9rU9UemsRFzVFMB27" class="fact-link">
+          Link to Buy
+        </a>
+      </div>
+
+      <!-- Favorite Song Section -->
+      <div class="fact-item">
         <h2>Favorite Song</h2>
         <h3>Break Stuff by Limp Bizkit</h3>
-      </header>
-      <p>
-        <audio
-          src="../assets/audio/Limp Bizkit - Break Stuff (Official Music Video) [ ezmp3.cc ].mp3" controls
-        ></audio>
-      </p>
-      <a href="https://open.spotify.com/track/5cZqsjVs6MevCnAkasbEOX?si=ec77ab509ef34640">Spotify Link</a>
-    </center>
-    <center>
-      <header>
-        <!--favorite tv show section-->
+        <audio controls>
+          <source
+            src="../assets/audio/Limp Bizkit - Break Stuff (Official Music Video) [ ezmp3.cc ].mp3"
+            type="audio/mpeg"
+          />
+          Your browser does not support the audio element.
+        </audio>
+        <a
+          href="https://open.spotify.com/track/5cZqsjVs6MevCnAkasbEOX?si=ec77ab509ef34640"
+          class="fact-link"
+        >
+          Spotify Link
+        </a>
+      </div>
+
+      <!-- Favorite TV Show Section -->
+      <div class="fact-item">
         <h2>Favorite TV Show</h2>
         <h3>Trailer Park Boys</h3>
-      </header>
-      <iframe width="560" height="315" controls src="https://www.youtube.com/embed/1a73jQsQ7wc?si=EIUahYP5uv7Ki7L7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </center>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/1a73jQsQ7wc?si=EIUahYP5uv7Ki7L7"
+          title="Trailer Park Boys YouTube"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
 
-
-     <footer></footer>
-     <!--copyright and contact info-->
-     <hr>
-        <ul>
-            <li>pmorgan@oakland.edu</li>
-            <li><a href="https://github.com/pmorgan12/PaulMorgan_hw1TH_csi3150_ws2023">My GitHub</a></li>
-        </ul>
-        Copyright @2024 Paul Morgan
+    <footer>
+      <ul>
+        <li>Email: pmorgan@oakland.edu</li>
+        <li>
+          <a href="https://github.com/pmorgan12/PaulMorgan_hw1TH_csi3150_ws2023"
+            >My GitHub</a
+          >
+        </li>
+      </ul>
+      <p>&copy; 2024 Paul Morgan</p>
     </footer>
   </body>
 </html>

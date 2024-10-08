@@ -1,0 +1,90 @@
+/* Header container for logo, navbar, and CTA */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+}
+
+/* Logo Styling */
+.logo img {
+  width: 50px; /* Adjust the size of the logo */
+  height: auto;
+  margin-left: 10px; /* Add space between the edge and the logo */
+}
+
+/* Center the Navbar on the screen */
+nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #09d6fa; /* Change the color on hover */
+  transition: color 0.3s ease;
+}
+
+/* Call-to-Action Styling */
+.cta a {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px; /* Add space between the edge and CTA */
+}
+
+.cta a:hover {
+  background-color: #09d6fa;
+  transition: background-color 0.3s ease;
+}
+
+/* Hero Section */
+.hero {
+  background: url("hero-bg.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* General Page Styling */
+body {
+  background: linear-gradient(120deg, #10b842 0%, #138aec 100%);
+  font-family: Arial, sans-serif;
+}
